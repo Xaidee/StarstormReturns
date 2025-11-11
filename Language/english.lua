@@ -38,6 +38,12 @@ return {
 			endQuote = "..and so he left, loaded up for more.",
 			story = "<p>I DON'T NEED NO FRIENDS\nI DON'T NEED NO PHONE\nJUST A BAG OF SEVERED HEADS\nAND MY NUCLEAR THRONE</c>"
 		},
+		nemesisExecutioner = {
+			name = "Nemesis Executioner",
+			nameUpper = "NEMESIS EXECUTIONER",
+			description = "The <y>Nemesis Executioner</c> takes away the lives of those who he condemns for what he envisions as the greater welfare.",
+			endQuote = "...and so he left, fading into the unknown.",
+		},
 		technician = {
 			name = "Technician",
 			nameUpper = "TECHNICIAN",
@@ -160,6 +166,26 @@ return {
 		nemesisMercenaryVBoosted = {
 			name = "Absolute Devitalization",
 			description = "Target the weakest enemy in front of you, attacking them for <y>1100% damage</c>, dealing <y>+50% TOTAL damage</c> to <y>stunned</c> enemies.</c> \n<b>You cannot be hit for the duration</c>."
+		},
+		nemesisExecutionerZ = {
+			name = "Chaotic Energy",
+			description = "Materialize 3 projectiles, each dealing <y>90% damage on impact</c>",
+		},
+		nemesisExecutionerX = {
+			name = "Puppeteer",
+			description = "Unearth ally ion minions which attack foes for <y>50% damage</c>. Every slayed enemy <y>adds a charge</c>."
+		},
+		nemesisExecutionerC = {
+			name = "Crowd Dispersion",
+			description = "Dash forward and <y>fear nearby enemies</c>. You <u>cannot be hit</c> while dashing.",
+		},
+		nemesisExecutionerV = {
+			name = "Reaper",
+			description = "Charge and slash a projected scythe forwards for <y>900% damage</c>."
+		},
+		nemesisExecutionerVBoosted = {
+			name = "Abyssal Reaper",
+			description = "Charge and slash a projected scythe forwards for <y>900% damage, fearing surviving enemies</c>."
 		},
 		technicianZ = {
 			name = "Fine Tune",
