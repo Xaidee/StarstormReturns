@@ -1,4 +1,5 @@
-local sprite_item = Sprite.new("SeismicOscillator", path.combine(PATH, "Sprites/Equipments/SeismicOscillator.png"), 2, 16, 16)
+local sprite_item = Sprite.new("SeismicOscillator", path.combine(PATH, "Sprites/Equipments/seismicOscillator.png"), 2, 16, 16)
+local sound = Sound.new("SeismicOscillatorUse", path.combine(PATH, "Sounds/Items/seismicOscillator.ogg"))
 
 local seismicOscillator = Equipment.new("seismicOscillator")
 seismicOscillator:set_sprite(sprite_item)
@@ -19,6 +20,7 @@ local function quake(actor)
 end
 
 Callback.add(seismicOscillator.on_use, function(actor, embryo)
+	actor:sound_play(sound, 1, 1)
 	local quakes = embryo == true and 12 or 6
 	for _, player in ipairs(Instance.find_all(gm.constants.oP)) do
 		player:screen_shake(quakes * 60)
